@@ -1,0 +1,17 @@
+DROP DATABASE IF EXISTS Extra_Assignment2_Ex23;
+CREATE DATABASE Extra_Assignment2_Ex23;
+USE Extra_Assignment2_Ex23;
+
+CREATE TABLE EX2 (
+	ID				MEDIUMINT AUTO_INCREMENT PRIMARY KEY,
+    `Name`			VARCHAR(50),
+    `Code`			CHAR(5),
+    ModifiedDate	DATETIME
+);
+
+CREATE TABLE EX3 (
+	ID				MEDIUMINT AUTO_INCREMENT PRIMARY KEY,
+    `Name`			VARCHAR(50),
+    Gender			BIT,
+    IsDeletedFlag	BIT
+);
